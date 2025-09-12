@@ -15,3 +15,4 @@
 - 課堂筆記
 
 [Markdown 教學](https://www.markdownguide.org/)
+[我的信箱](mailto:s1133320@mail.yzu.edu.tw)
