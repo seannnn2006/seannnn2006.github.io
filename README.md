@@ -1,63 +1,58 @@
 <div align="center">
 
-# 🎓 Data Structures Learning Journey
-### 曾偉翔 · Yuan Ze University · Dept. of CSE
+<img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Data%20Structures&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%">
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B)
-![School](https://img.shields.io/badge/University-YZU-red?style=flat-square)
-![Git](https://img.shields.io/badge/Tools-Git-orange?style=flat-square&logo=git)
+### 🧑‍💻 曾偉翔的程式邏輯實驗室
+**元智大學 資訊工程學系 | 1133320**
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Data%20Structures-FFD700?style=for-the-badge&logo=databricks&logoColor=black">
+</p>
 
 </div>
 
 ---
 
-> **「程式碼不只是邏輯，更是思維的結構化。」**
-> 
-> 這裡是我的《資料結構》學習基地。記錄了從 Array 到 Graph 的每一段邏輯推演與實作細節，希望能透過整理與分享，與線上夥伴們共同交流成長。
+### 🌊 課程導覽與核心章節
 
----
+> [!TIP]
+> **點擊下方標籤可快速導航至各章節源碼與筆記。**
 
-## 🛠 核心技術與環境
-* **程式語言：** 以 **C / C++** 為主，深入理解記憶體配置與底層邏輯。
-* **版本管理：** 透過 **Git & GitHub** 進行系統化的版本控制與開發紀錄。
-* **文件規範：** 使用 **Markdown** 撰寫學習心得，確保知識的系統化整理。
-
-
-
----
-
-## 📂 章節地圖 (Index)
-
-我將課程內容依據資料結構的特性分為以下模組，點擊標題可直接跳轉至對應目錄：
-
-| 模組分類 | 學習重點 | 目錄連結 |
+| 類別 | 實作章節 | 技術關鍵字 |
 | :--- | :--- | :--- |
-| **線性結構** | 基礎內存排列、搜尋與排序 | [Array 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80) |
-| **鏈結結構** | 動態配置與指標的靈活運用 | [Linked List 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80) |
-| **限制操作** | LIFO 與 FIFO 的經典應用場景 | [Stacks & Queues](https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80) |
-| **分層與排序** | 二元樹、AVL 樹與優先佇列 | [Tree](https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80) / [Heaps](https://github.com/seannnn2006/11401_CS203A/tree/main/Heaps%E8%B3%87%E6%96%99%E5%8D%80) |
-| **快速索引** | 雜湊函數設計與碰撞處理機制 | [Hashing 區](https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80) |
-| **網路連結** | 遍歷算法 (DFS/BFS) 與最短路徑 | [Graph 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80) |
+| **Linear** | [Array 陣列](https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80) | `Sorting`, `Searching` |
+| **Pointer** | [Linked List 鏈結串列](https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80) | `Dynamic Memory`, `Nodes` |
+| **Logic** | [Stacks & Queues](https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80) | `LIFO`, `FIFO` |
+| **Search** | [Hashing 雜湊](https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80) | `Hash Function`, `Collision` |
+| **Tree** | [Trees & Heaps](https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80) | `Recursion`, `Priority Queue` |
+| **Graph** | [Graph 圖形](https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80) | `BFS`, `DFS`, `Dijkstra` |
+
+
 
 ---
 
-## 👨‍🎓 學習者資訊
-* **姓名：** 曾偉翔 (Sean Tseng)
-* **學號：** 1133320
-* **單位：** 元智大學 資訊工程學系
-* **聯繫：** [s1133320@mail.yzu.edu.tw](mailto:s1133320@mail.yzu.edu.tw)
-* **課程 Repository：** [11401_CS203A](https://github.com/seannnn2006/11401_CS203A)
+### 🚀 學習軌跡與願景
+
+- **[實作]** 以 C/C++ 重新撰寫底層資料結構，不依賴標準庫以理解運作原理。
+- **[優化]** 持續進行時間複雜度分析，追求更高效的 Algorithm 實作。
+- **[目標]** 將課程所學應用於解決 LeetCode 硬核演算法題。
 
 ---
 
-## 🚀 未來更新計畫
-- [ ] **精煉筆記：** 將課堂心得轉化為技術部落格形式的教學文件。
-- [ ] **實戰演練：** 整理與資料結構相關的 LeetCode 刷題記錄。
-- [ ] **效能優化：** 針對現有程式碼進行 Big O 時間/空間複雜度分析。
+### 🎓 個人資訊卡
 
----
+```yaml
+Student:
+  Name: 曾偉翔 (Sean Tseng)
+  ID: 1133320
+  Affiliation: Yuan Ze University, CSE
+  Email: s1133320@mail.yzu.edu.tw
+<div align="center"> <img src="https://www.google.com/search?q=https://capsule-render.vercel.app/render%3Ftype%3Dslice%26color%3Dauto%26height%3D100%26section%3Dfooter" width="100%">
 
-<div align="center">
+⭐ 如果這些紀錄對你有幫助，請給我一個 Star！
 
-⭐ **歡迎透過 Issues 或 Pull Requests 進行交流** ⭐ **如果這份筆記對你有幫助，請給我一個 Star 作為鼓勵！** </div>
+</div>
