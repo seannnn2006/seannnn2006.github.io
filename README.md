@@ -77,18 +77,16 @@
 🧩 Data Structures
 ```
 
-### 📌 涵蓋資料結構主題
+### 📌 各章節資料夾連結
 
-- 📦 Array  
-- 🔗 Linked List  
-- 🧱 Stack  
-- 🚪 Queue  
-- 🔍 Hash  
-- 🌳 Tree  
-- 🗂 Heap  
-- 🌐 Graph  
+- 📦 **[Array](https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🔗 **[Linked List](https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🧱 **[Stack & Queue](https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🔍 **[Hash](https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🌳 **[Tree](https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🗂 **[Heap](https://github.com/seannnn2006/11401_CS203A/tree/main/Heaps%E8%B3%87%E6%96%99%E5%8D%80)**
+- 🌐 **[Graph](https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80)**
 
----
 
 ## 🚀 未來更新計畫
 
