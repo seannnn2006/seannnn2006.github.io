@@ -1,106 +1,63 @@
 <div align="center">
 
-# 🎓📦 Course Repository
+# 🎓 Data Structures Learning Journey
+### 曾偉翔 · Yuan Ze University · Dept. of CSE
 
-✨ **Data Structures Learning Repository** ✨  
-🧑‍💻 曾偉翔 · Yuan Ze University · 資訊工程學系  
-
----
-
-![status](https://img.shields.io/badge/Status-Active-brightgreen)
-![ds](https://img.shields.io/badge/Subject-Data%20Structures-blue)
-![lang](https://img.shields.io/badge/Language-C/C++-orange)
-![github](https://img.shields.io/badge/Platform-GitHub-black)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B)
+![School](https://img.shields.io/badge/University-YZU-red?style=flat-square)
+![Git](https://img.shields.io/badge/Tools-Git-orange?style=flat-square&logo=git)
 
 </div>
 
 ---
 
-> 📚 **這裡是曾偉翔的資料結構儲存庫**  
-> 🚀 用於整理作業、學習紀錄，以及與線上夥伴分享程式碼
+> **「程式碼不只是邏輯，更是思維的結構化。」**
+> 
+> 這裡是我的《資料結構》學習基地。記錄了從 Array 到 Graph 的每一段邏輯推演與實作細節，希望能透過整理與分享，與線上夥伴們共同交流成長。
 
 ---
 
-## 📚 課程目的
+## 🛠 核心技術與環境
+* **程式語言：** 以 **C / C++** 為主，深入理解記憶體配置與底層邏輯。
+* **版本管理：** 透過 **Git & GitHub** 進行系統化的版本控制與開發紀錄。
+* **文件規範：** 使用 **Markdown** 撰寫學習心得，確保知識的系統化整理。
 
-🎯 建立此儲存庫的目的：
 
-- 📝 保存課程所有的程式作業練習  
-- 🧠 高效學習資料結構（Data Structures）  
-- 🔧 熟悉 Git / GitHub 版本控制  
-- 📒 存放學習筆記  
-- 📂 存放作業與Demo程式  
 
 ---
 
-## 👨‍🎓 個人資訊
+## 📂 章節地圖 (Index)
 
-| 🏷️ 項目 | ✨內容 |
-|------|------|
-| 👤 姓名 | 曾偉翔 |
-| 🆔 學號 | 1133320 |
-| 🏫 學校 | 元智大學 |
-| 🖥 系所 | 資訊工程學系 |
-| 📧 學校信箱 | s1133320@mail.yzu.edu.tw |
+我將課程內容依據資料結構的特性分為以下模組，點擊標題可直接跳轉至對應目錄：
 
----
-
-## 🌐 課程網站 / 參考連結
-
-🔗 **課程 GitHub Repository**  
-👉 https://github.com/seannnn2006/11401_CS203A  
-
-📎 可在此找到：
-- 課程筆記
-- 作業程式
-- 練習記錄
+| 模組分類 | 學習重點 | 目錄連結 |
+| :--- | :--- | :--- |
+| **線性結構** | 基礎內存排列、搜尋與排序 | [Array 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80) |
+| **鏈結結構** | 動態配置與指標的靈活運用 | [Linked List 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80) |
+| **限制操作** | LIFO 與 FIFO 的經典應用場景 | [Stacks & Queues](https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80) |
+| **分層與排序** | 二元樹、AVL 樹與優先佇列 | [Tree](https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80) / [Heaps](https://github.com/seannnn2006/11401_CS203A/tree/main/Heaps%E8%B3%87%E6%96%99%E5%8D%80) |
+| **快速索引** | 雜湊函數設計與碰撞處理機制 | [Hashing 區](https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80) |
+| **網路連結** | 遍歷算法 (DFS/BFS) 與最短路徑 | [Graph 資料區](https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80) |
 
 ---
 
-## 📂 資料夾結構
-
-```
-📦 Course Repository
- ┣ 📁 課堂作業  (Homework)
- ┣ 📁 範例程式碼 (Examples)
- ┗ 📁 課堂筆記  (Notes)
-```
+## 👨‍🎓 學習者資訊
+* **姓名：** 曾偉翔 (Sean Tseng)
+* **學號：** 1133320
+* **單位：** 元智大學 資訊工程學系
+* **聯繫：** [s1133320@mail.yzu.edu.tw](mailto:s1133320@mail.yzu.edu.tw)
+* **課程 Repository：** [11401_CS203A](https://github.com/seannnn2006/11401_CS203A)
 
 ---
-
-## 🛠 使用技術
-
-```
-🧩 C / C++
-🧩 Git & GitHub
-🧩 Markdown
-🧩 Data Structures
-```
-
-### 📌 各章節資料夾連結
-
-- 📦 **[Array](https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🔗 **[Linked List](https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🧱 **[Stack & Queue](https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🔍 **[Hash](https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🌳 **[Tree](https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🗂 **[Heap](https://github.com/seannnn2006/11401_CS203A/tree/main/Heaps%E8%B3%87%E6%96%99%E5%8D%80)**
-- 🌐 **[Graph](https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80)**
-
 
 ## 🚀 未來更新計畫
-
-- 📌 LeetCode 題解整理  
-- 📌 演算法學習紀錄  
-- 📌 筆記轉成教學文  
-- 📌 加入更多程式實作案例  
+- [ ] **精煉筆記：** 將課堂心得轉化為技術部落格形式的教學文件。
+- [ ] **實戰演練：** 整理與資料結構相關的 LeetCode 刷題記錄。
+- [ ] **效能優化：** 針對現有程式碼進行 Big O 時間/空間複雜度分析。
 
 ---
 
 <div align="center">
 
-⭐ 歡迎 Issues / Pull Requests  
-⭐ 如果對你有幫助，別忘了 **Star✨**  
-📚 持續更新中……
-
-</div>
+⭐ **歡迎透過 Issues 或 Pull Requests 進行交流** ⭐ **如果這份筆記對你有幫助，請給我一個 Star 作為鼓勵！** </div>
