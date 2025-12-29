@@ -4,7 +4,7 @@
 ### 曾偉翔 · Yuan Ze University · Dept. of CSE
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B)
+![C++/C](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B)
 ![School](https://img.shields.io/badge/University-YZU-red?style=flat-square)
 ![Git](https://img.shields.io/badge/Tools-Git-orange?style=flat-square&logo=git)
 
