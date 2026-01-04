@@ -1,4 +1,4 @@
-#   🌟🌟🌟🌟🌟Exploring the World of Programming🌟🌟🌟🌟🌟
+#  🌟🌟🌟Exploring the World of Programming🌟🌟🌟
 
 ### 曾偉翔 · Yuan Ze University · Dept. of CSE
 
