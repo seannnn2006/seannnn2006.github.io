@@ -1,14 +1,18 @@
 /* 全域設定 */
 body {
   font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-  background-color: #0d1117;
-  background-image: 
-    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
-    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
-  background-size: 40px 40px; /* 網格大小 */
+  background: linear-gradient(-45deg, #0d1117, #1a1f24, #00e0ff, #203a43);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
   color: #e0e0e0;
   line-height: 1.7;
   margin: 0;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* 容器 */
