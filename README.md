@@ -1,6 +1,7 @@
-#  🌟🌟🌟🌟Exploring the World of Programming🌟🌟🌟🌟
-### 曾偉翔 · Yuan Ze University · Dept. of CSE
-
+<div align="center">
+  <h1>🌟🌟🌟🌟 Exploring the World of Programming 🌟🌟🌟🌟</h1>
+  <h3>曾偉翔 · Yuan Ze University · Dept. of CSE</h3>
+</div>
 
 ---
 
