@@ -1,3 +1,61 @@
+<style>
+/* 整體背景與字型 */
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 標題美化 */
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 5px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 20px;
+}
+
+/* 表格美化 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* 引言區塊 */
+blockquote {
+  background: #ecf0f1;
+  border-left: 5px solid #3498db;
+  padding: 10px;
+  font-style: italic;
+}
+
+/* 中央對齊的結尾提示 */
+.footer {
+  text-align: center;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-top: 30px;
+}
+</style>
 <div align="center">
   
 #  Data Structures Learning Journey
