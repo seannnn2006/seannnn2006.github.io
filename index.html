@@ -4,39 +4,219 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Exploring the World of Programming | 曾偉翔 · YZU CSE</title>
-  <!-- 連結外部 CSS -->
-  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+    :root {
+      --text:#333;
+      --muted:#555;
+      --bg:#f9fbfd;
+      --primary:#3498db;
+      --heading:#2c3e50;
+      --border:#e5e9f2;
+    }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      margin: 0;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+    .center { text-align: center; }
+
+    h1 {
+      color: var(--heading);
+      font-size: 28px;
+      margin: 0 0 6px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid var(--primary);
+      display: inline-block;
+    }
+    h2 {
+      color: #34495e;
+      margin-top: 28px;
+      font-size: 22px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin-top: 6px;
+      font-size: 15px;
+    }
+    .badges {
+      margin-top: 14px;
+    }
+    .badges img {
+      margin: 4px 6px;
+    }
+    blockquote {
+      background: #ecf0f1;
+      border-left: 5px solid var(--primary);
+      padding: 12px 14px;
+      font-style: italic;
+      margin: 16px 0;
+    }
+    ul {
+      margin: 10px 0 0 0;
+    }
+    li { margin: 6px 0; }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 14px 0;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+    th {
+      background: var(--primary);
+      color: #fff;
+      text-align: left;
+    }
+    tr:nth-child(even) td { background: #f7fafc; }
+
+    .footer {
+      text-align: center;
+      font-weight: bold;
+      color: #e74c3c;
+      margin-top: 32px;
+    }
+    a { color: #1f6feb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <main class="container">
-    <h1>🌟 Exploring the World of Programming 🌟</h1>
-    <h3>曾偉翔 · Yuan Ze University · Dept. of CSE</h3>
+    <section class="center">
+      <h1>🌟 Exploring the World of Programming 🌟</h1>
+      <div class="subtitle">曾偉翔 · Yuan Ze University · Dept. of CSE</div>
 
-    <blockquote>
-      <b>「程式碼不只是邏輯，更是思維的結構化。」</b><br>
-      這裡是我的學習基地。希望能透過整理與分享，與線上夥伴們共同交流成長。
-    </blockquote>
+      <div class="badges">
+        <img alt="Status Active" src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
+        <img alt="Language C/C++" src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=c%2B%2B" />
+        <img alt="University YZU" src="https://img.shields.io/badge/University-YZU-red?style=flat-square" />
+        <img alt="Tools Git" src="https://img.shields.io/badge/Tools-Git-orange?style=flat-square&logo=git" />
+      </div>
+    </section>
 
-    <h2>學習者資訊</h2>
-    <ul>
-      <li><b>姓名：</b> 曾偉翔 (WEIXIANG ZENG)</li>
-      <li><b>學號：</b> 1133320</li>
-      <li><b>單位：</b> 元智大學 資訊工程學系</li>
-      <li><b>興趣：</b> 寫程式、了解科技產品</li>
-      <li><b>聯繫：</b> <a href="mailto:s1133320@mail.yzu.edu.tw">s1133320@mail.yzu.edu.tw</a></li>
-      <li><b>資料結構課程 Repository：</b> 
-        <a href="https://github.com/seannnn2006/11401_CS203A" target="_blank">11401_CS203A</a>
-      </li>
-    </ul>
+    <hr />
 
-    <h2>資料結構</h2>
-    <table>
-      <tr><th>模組分類</th><th>學習重點</th><th>目錄連結</th></tr>
-      <tr><td><b>線性結構</b></td><td>基礎內存排列、搜尋與排序</td><td><a href="#">Array 資料區</a></td></tr>
-      <tr><td><b>鏈結結構</b></td><td>動態配置與指標的靈活運用</td><td><a href="#">Linked List 資料區</a></td></tr>
-    </table>
+    <section>
+      <blockquote>
+        <b>「程式碼不只是邏輯，更是思維的結構化。」</b><br />
+        這裡是我的學習基地。希望能透過整理與分享，與線上夥伴們共同交流成長。
+      </blockquote>
+    </section>
 
-    <button class="btn">Click Me</button>
+    <hr />
+
+    <section>
+      <h2>學習者資訊</h2>
+      <ul>
+        <li><b>姓名：</b> 曾偉翔 (WEIXIANG ZENG)</li>
+        <li><b>學號：</b> 1133320</li>
+        <li><b>單位：</b> 元智大學 資訊工程學系</li>
+        <li><b>興趣：</b> 寫程式、了解科技產品</li>
+        <li><b>聯繫：</b> <a href="mailto:s1133320@mail.yzu.edu.tw">s1133320@mail.yzu.edu.tw</a></li>
+        <li><b>資料結構課程 Repository：</b> <a href="https://github.com/seannnn2006/11401_CS203A" target="_blank">11401_CS203A</a></li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>資料結構</h2>
+      <p>我將課程內容依據資料結構的特性分為以下模組，點擊標題可直接跳轉至對應目錄：</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>模組分類</th>
+            <th>學習重點</th>
+            <th>目錄連結</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>線性結構</b></td>
+            <td>基礎內存排列、搜尋與排序</td>
+            <td><a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Array%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Array 資料區</a></td>
+          </tr>
+          <tr>
+            <td><b>鏈結結構</b></td>
+            <td>動態配置與指標的靈活運用</td>
+            <td><a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Link%20List%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Linked List 資料區</a></td>
+          </tr>
+          <tr>
+            <td><b>限制操作</b></td>
+            <td>LIFO 與 FIFO 的經典應用場景</td>
+            <td><a href="https://github.com/seannnn2006/11401_CS203A/tree/main/STACKS%20%26%20QUEUES%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Stacks & Queues</a></td>
+          </tr>
+          <tr>
+            <td><b>分層與排序</b></td>
+            <td>二元樹、AVL 樹與優先佇列</td>
+            <td>
+              <a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Tree%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Tree</a> /
+              <a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Heaps%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Heaps</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>快速索引</b></td>
+            <td>雜湊函數設計與碰撞處理機制</td>
+            <td><a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Hashing%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Hashing 區</a></td>
+          </tr>
+          <tr>
+            <td><b>網路連結</b></td>
+            <td>遍歷算法 (DFS/BFS) 與最短路徑</td>
+            <td><a href="https://github.com/seannnn2006/11401_CS203A/tree/main/Graph%E8%B3%87%E6%96%99%E5%8D%80" target="_blank">Graph 資料區</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>核心技術與環境</h2>
+      <ul>
+        <li><b>程式語言：</b> 以 <b>C / C++</b> 為主，深入理解記憶體配置與底層邏輯。</li>
+        <li><b>版本管理：</b> 透過 <b>Git & GitHub</b> 進行系統化的版本控制與開發紀錄。</li>
+        <li><b>文件規範：</b> 使用 <b>Markdown</b> 撰寫學習心得，確保知識的系統化整理。</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>未來更新計畫</h2>
+      <ul>
+        <li><b>精煉筆記：</b> 將筆記精煉轉化為可以讓線上夥伴用來學習的資料。</li>
+        <li><b>實戰演練：</b> 整理與資料結構相關的 LeetCode 刷題記錄。</li>
+        <li><b>效能優化：</b> 針對現有程式碼進行 Big O 時間／空間複雜度分析。</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>學習資源推薦</h2>
+      <ul>
+        <li><a href="https://visualgo.net/zh" target="_blank">Visualgo</a> — 資料結構視覺化工具</li>
+        <li><a href="https://leetcode.com/" target="_blank">LeetCode</a> — 練習資料結構的線上平台</li>
+      </ul>
+    </section>
 
     <div class="footer">⭐ 歡迎透過 學校信箱 與我進行交流 ⭐</div>
   </main>
