@@ -59,6 +59,14 @@
 
 ---
 
+---
+
+## 學習資源推薦
+- [Visualgo](https://visualgo.net/zh) — 資料結構視覺化工具
+- [LeetCode](https://leetcode.com/) — 練習資料結構的線上平台
+
+---
+
 <div align="center">
 
 ⭐ **歡迎透過  學校信箱 與我進行交流** ⭐ </div>
