@@ -1,13 +1,15 @@
 /* 全域設定 */
 body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
   background-color: #0d1117;
   background-image: 
     linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
     linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 40px 40px; /* 網格大小 */
   color: #e0e0e0;
+  line-height: 1.7;
+  margin: 0;
 }
-
 
 /* 容器 */
 .container {
@@ -27,18 +29,20 @@ h1 {
 }
 
 h2 {
-  color: #34495e;
+  color: #00e0ff;
   margin-top: 28px;
   font-size: 22px;
+  text-shadow: 0 0 6px rgba(0, 224, 255, 0.6);
 }
 
 /* 引言區塊 */
 blockquote {
-  background: #ecf0f1;
-  border-left: 5px solid #3498db;
+  background: rgba(0, 224, 255, 0.1);
+  border-left: 5px solid #00e0ff;
   padding: 12px 14px;
   font-style: italic;
   margin: 16px 0;
+  color: #e0e0e0;
 }
 
 /* 表格 */
@@ -46,27 +50,30 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 14px 0;
-  background: #fff;
+  background: #1a1f24;
 }
 
 th, td {
-  border: 1px solid #e5e9f2;
+  border: 1px solid #2c3e50;
   padding: 10px 12px;
+  color: #e0e0e0;
 }
 
 th {
-  background: #3498db;
-  color: #fff;
+  background: #00e0ff;
+  color: #0d1117;
+  text-shadow: 0 0 6px rgba(0, 224, 255, 0.6);
 }
 
 tr:nth-child(even) td {
-  background: #f7fafc;
+  background: rgba(255,255,255,0.05);
 }
 
 /* Footer */
 .footer {
   text-align: center;
   font-weight: bold;
-  color: #e74c3c;
+  color: #00e0ff;
   margin-top: 32px;
+  text-shadow: 0 0 6px rgba(0, 224, 255, 0.6);
 }
