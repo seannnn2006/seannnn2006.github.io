@@ -48,7 +48,7 @@
 * **單位：** 元智大學 資訊工程學系
 * **興趣：** 寫程式、了解科技產品
 * **聯繫：** [s1133320@mail.yzu.edu.tw](mailto:s1133320@mail.yzu.edu.tw)
-* **課程 Repository：** [11401_CS203A](https://github.com/seannnn2006/11401_CS203A)
+* **資料結構課程 Repository：** [11401_CS203A](https://github.com/seannnn2006/11401_CS203A)
 
 ---
 
