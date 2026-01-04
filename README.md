@@ -1,6 +1,6 @@
 <div align="center">
   
-#  Data Structures Learning Journey
+#  Learning Journey
 ### 曾偉翔 · Yuan Ze University · Dept. of CSE
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
@@ -14,7 +14,7 @@
 
 <blockquote style="background:#ecf0f1; border-left:5px solid #3498db; padding:10px; font-style:italic;">
   <b>「程式碼不只是邏輯，更是思維的結構化。」</b><br>
-  這裡是我的《資料結構》學習基地。記錄了從 Array 到 Graph 的每一段邏輯推演與實作細節，希望能透過整理與分享，與線上夥伴們共同交流成長。
+  這裡是我的學習基地。希望能透過整理與分享，與線上夥伴們共同交流成長。
 </blockquote>
 
 ---
