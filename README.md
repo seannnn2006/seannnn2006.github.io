@@ -19,10 +19,15 @@
 
 ---
 
-##  核心技術與環境
-* **程式語言：** 以 **C / C++** 為主，深入理解記憶體配置與底層邏輯。
-* **版本管理：** 透過 **Git & GitHub** 進行系統化的版本控制與開發紀錄。
-* **文件規範：** 使用 **Markdown** 撰寫學習心得，確保知識的系統化整理。
+<h2 style="color:#34495e; border-left:5px solid #3498db; padding-left:10px;">
+  核心技術與環境
+</h2>
+
+<ul style="list-style-type:square; color:#2c3e50; font-size:16px; line-height:1.6;">
+  <li><b>程式語言：</b> 以 <span style="color:#2980b9; font-weight:bold;">C / C++</span> 為主，深入理解記憶體配置與底層邏輯。</li>
+  <li><b>版本管理：</b> 透過 <span style="color:#e67e22; font-weight:bold;">Git & GitHub</span> 進行系統化的版本控制與開發紀錄。</li>
+  <li><b>文件規範：</b> 使用 <span style="color:#27ae60; font-weight:bold;">Markdown</span> 撰寫學習心得，確保知識的系統化整理。</li>
+</ul>
 
 
 
