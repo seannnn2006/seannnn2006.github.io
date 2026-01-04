@@ -1,6 +1,7 @@
 <div align="center">
   
-#  Learning Journey
+#   Exploring the World of Programming
+
 ### 曾偉翔 · Yuan Ze University · Dept. of CSE
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
