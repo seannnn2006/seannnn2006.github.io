@@ -1,11 +1,13 @@
 /* 全域設定 */
 body {
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-  background-color: #f9fbfd;
-  color: #333;
-  line-height: 1.7;
-  margin: 0;
+  background-color: #0d1117;
+  background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px; /* 網格大小 */
+  color: #e0e0e0;
 }
+
 
 /* 容器 */
 .container {
@@ -16,11 +18,12 @@ body {
 
 /* 標題 */
 h1 {
-  color: #2c3e50;
+  color: #00e0ff;
   font-size: 28px;
-  border-bottom: 3px solid #3498db;
+  border-bottom: 3px solid #00e0ff;
   padding-bottom: 8px;
   display: inline-block;
+  text-shadow: 0 0 8px rgba(0, 224, 255, 0.7); /* 霓虹光暈 */
 }
 
 h2 {
